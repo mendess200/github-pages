@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            background-color: #5a3a8a; /* Cor roxa inspirada na imagem */
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 20px auto;
+            display: block;
+            /* Se a imagem não carregar, um fundo cinza */
+            background-color: #ccc;
+        }
+
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        section:last-child {
+            border-bottom: none;
+        }
+
+        section h2 {
+            color: #5a3a8a; /* Cor roxa para os títulos das seções */
+        }
+
+        .project-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .inspiration {
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio em Construção</h1>
+    </header>
+
+    <div class="container">
+        <img src="URL_DA_SUA_IMAGEM_DE_PERFIL" alt="Foto de Perfil" class="profile-image">
+
+        <section id="sobre-mim">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou uma estudante de 17 anos com muita energia e foco no futuro. Neste momento da minha jornada, minhas principais prioridades são dedicar-me aos estudos, investir no meu bem-estar e construir uma base sólida para a minha futura carreira profissional. Estou animada para explorar novas áreas e desenvolver minhas habilidades.</p>
+        </section>
+
+        <section id="projetos-trabalhados">
+            <h2>Projetos que Trabalhei</h2>
+            <p>Aqui irei listar os projetos em que já tive a oportunidade de participar. (Em breve!)</p>
+            </section>
+
+        <section id="projetos-desenvolvidos">
+            <h2>Projetos Desenvolvidos</h2>
+            <p>Aqui irei apresentar os projetos que desenvolvi por conta própria para aprender e praticar. (Em breve!)</p>
+            </section>
+
+        <section id="aspiracoes-profissionais">
+            <h2>Aspirações Profissionais</h2>
+            <p>Tenho grandes expectativas para o meu futuro profissional. Minhas aspirações incluem [Você pode adicionar aqui suas áreas de interesse, tipo de trabalho que busca, ou os objetivos de carreira que você tem no momento]. Estou focada em adquirir o conhecimento e as experiências necessárias para alcançar meus objetivos.</p>
+        </section>
+
+        <section id="inspiracoes">
+            <h2>Minhas Inspirações</h2>
+            <p>Sou muito inspirada por diversas figuras. As influenciadoras da internet me mostram a importância de perseguir meus sonhos com paixão e autenticidade. E, acima de tudo, sou incrivelmente grata pelo apoio incondicional dos meus pais, que sempre me incentivam a seguir em frente.</p>
+            </section>
+    </div>
+</body>
+</html>
